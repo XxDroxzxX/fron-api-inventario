@@ -1,10 +1,10 @@
-//funciones transversales
+//funcion para alertas 
 function alertas(mensaje,tipo){
     var color ="";
-    if(tipo == 1){//success verde
+    if(tipo == 1){//success verde, correcto
         color="success"
     }
-    else{//danger rojo
+    else{//danger rojo, error
         color = "danger"
     }
     var alerta =`<div class="alert alert-${color} alert-dismissible fade show" role="alert">
